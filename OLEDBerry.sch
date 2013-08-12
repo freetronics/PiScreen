@@ -1,0 +1,348 @@
+EESchema Schematic File Version 2
+LIBS:freetronics_kicad_sch_lib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:OLEDBerry-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8800 4250 0    60   ~ 0
+OLED Connector
+Text Label 8850 4750 2    60   ~ 0
+uSD_~CS
+Text Label 9650 4750 0    60   ~ 0
+uSD_CD
+Text Label 8850 4850 2    60   ~ 0
+MISO
+Text Label 9650 4850 0    60   ~ 0
+MOSI
+Text Label 8850 4950 2    60   ~ 0
+SCK
+Text Label 9650 4950 0    60   ~ 0
+OLED_~CS
+Text Label 8500 5050 0    60   ~ 0
+OLED_DnC
+Text Label 9650 5050 0    60   ~ 0
+OLED_~RST
+$Comp
+L +5V #PWR01
+U 1 1 5208893F
+P 8350 4600
+F 0 "#PWR01" H 8350 4690 20  0001 C CNN
+F 1 "+5V" H 8350 4690 30  0000 C CNN
+F 2 "" H 8350 4600 60  0000 C CNN
+F 3 "" H 8350 4600 60  0000 C CNN
+	1    8350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 52088946
+P 10100 4700
+F 0 "#PWR02" H 10100 4700 30  0001 C CNN
+F 1 "GND" H 10100 4630 30  0001 C CNN
+F 2 "" H 10100 4700 60  0000 C CNN
+F 3 "" H 10100 4700 60  0000 C CNN
+	1    10100 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L M02X05 P1
+U 1 1 5208894E
+P 9300 4650
+F 0 "P1" H 9200 4750 50  0000 C CNN
+F 1 "M02X05" H 9250 4150 40  0000 C CNN
+F 2 "~" H 9300 4650 60  0000 C CNN
+F 3 "~" H 9300 4650 60  0000 C CNN
+	1    9300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 52088954
+P 9650 5300
+F 0 "R1" V 9730 5300 40  0000 C CNN
+F 1 "47K" V 9657 5301 40  0000 C CNN
+F 2 "" V 9580 5300 30  0000 C CNN
+F 3 "" H 9650 5300 30  0000 C CNN
+	1    9650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5208895B
+P 9650 5600
+F 0 "#PWR03" H 9650 5600 30  0001 C CNN
+F 1 "GND" H 9650 5530 30  0001 C CNN
+F 2 "" H 9650 5600 60  0000 C CNN
+F 3 "" H 9650 5600 60  0000 C CNN
+	1    9650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L M02X13 JP1
+U 1 1 52089838
+P 6950 4650
+F 0 "JP1" H 6850 4750 50  0000 C CNN
+F 1 "M02X13" H 6900 3350 40  0000 C CNN
+F 2 "" H 6950 4650 60  0000 C CNN
+F 3 "" H 6950 4650 60  0000 C CNN
+	1    6950 4650
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 4250 0    60   ~ 0
+Raspberry Pi Connector
+Text Label 6650 4650 2    60   ~ 0
+3V3
+Text Label 6650 4750 2    60   ~ 0
+GPIO2_SDA
+Text Label 6650 4850 2    60   ~ 0
+GPIO3_SCL
+Text Label 6650 4950 2    60   ~ 0
+GPIO4_GPCLK0
+Text Label 6650 5050 2    60   ~ 0
+GND
+Text Label 6650 5150 2    60   ~ 0
+GPIO17
+Text Label 6650 5250 2    60   ~ 0
+GPIO27
+Text Label 6650 5350 2    60   ~ 0
+GPIO22
+Text Label 6650 5550 2    60   ~ 0
+MOSI
+Text Label 6650 5650 2    60   ~ 0
+MISO
+Text Label 6650 5750 2    60   ~ 0
+SCK
+Text Label 6650 5850 2    60   ~ 0
+GND
+Text Label 7150 4650 0    60   ~ 0
+5V
+Text Label 7150 4750 0    60   ~ 0
+5V
+Text Label 7150 4850 0    60   ~ 0
+GND
+Text Label 7150 4950 0    60   ~ 0
+GPIO14_TXD
+Text Label 7150 5050 0    60   ~ 0
+GPIO15_RXD
+Text Label 7150 5150 0    60   ~ 0
+GPIO18_PCM_CLK
+Text Label 7150 5250 0    60   ~ 0
+GND
+Text Label 7150 5350 0    60   ~ 0
+GPIO23
+Text Label 7150 5450 0    60   ~ 0
+GPIO24
+Text Label 7150 5550 0    60   ~ 0
+GND
+Text Label 7150 5650 0    60   ~ 0
+GPIO25
+Text Label 7150 5750 0    60   ~ 0
+GPIO8_CE0
+Text Label 7150 5850 0    60   ~ 0
+GPIO7_CE1
+$Comp
+L GND #PWR04
+U 1 1 52089C00
+P 8000 6500
+F 0 "#PWR04" H 8000 6500 30  0001 C CNN
+F 1 "GND" H 8000 6430 30  0001 C CNN
+F 2 "" H 8000 6500 60  0000 C CNN
+F 3 "" H 8000 6500 60  0000 C CNN
+	1    8000 6500
+	1    0    0    -1  
+$EndComp
+Text Label 7750 5750 0    60   ~ 0
+OLED_~CS
+Text Label 7750 5850 0    60   ~ 0
+uSD_~CS
+NoConn ~ 10000 4750
+NoConn ~ 7400 4950
+NoConn ~ 7400 5050
+NoConn ~ 7400 5150
+Wire Wire Line
+	9500 4650 10100 4650
+Wire Wire Line
+	8500 4750 9000 4750
+Wire Wire Line
+	9500 4750 10000 4750
+Wire Wire Line
+	8500 4850 9000 4850
+Wire Wire Line
+	9500 4850 10000 4850
+Wire Wire Line
+	8500 4950 9000 4950
+Wire Wire Line
+	9500 4950 10000 4950
+Wire Wire Line
+	8500 5050 9000 5050
+Wire Wire Line
+	9500 5050 10000 5050
+Wire Wire Line
+	10100 4650 10100 4700
+Wire Wire Line
+	8350 4600 8350 4650
+Connection ~ 9650 5050
+Wire Wire Line
+	9650 5600 9650 5550
+Wire Wire Line
+	6650 4650 6400 4650
+Wire Wire Line
+	6650 4750 6400 4750
+Wire Wire Line
+	6650 4850 6400 4850
+Wire Wire Line
+	6650 4950 6400 4950
+Wire Wire Line
+	5750 5050 6650 5050
+Wire Wire Line
+	6650 5150 6400 5150
+Wire Wire Line
+	6650 5250 6400 5250
+Wire Wire Line
+	6650 5350 6400 5350
+Wire Wire Line
+	6650 5450 6400 5450
+Wire Wire Line
+	6650 5550 6400 5550
+Wire Wire Line
+	6650 5650 6400 5650
+Wire Wire Line
+	6650 5750 6400 5750
+Wire Wire Line
+	5750 5850 6650 5850
+Wire Wire Line
+	7150 4750 7400 4750
+Wire Wire Line
+	7150 4850 8000 4850
+Wire Wire Line
+	7150 4950 7400 4950
+Wire Wire Line
+	7150 5050 7400 5050
+Wire Wire Line
+	7150 5150 7400 5150
+Wire Wire Line
+	7150 5350 7400 5350
+Wire Wire Line
+	7150 5450 7900 5450
+Wire Wire Line
+	7150 5550 8400 5550
+Wire Wire Line
+	7150 5650 7900 5650
+Wire Wire Line
+	7150 5750 7900 5750
+Wire Wire Line
+	7150 5850 7900 5850
+Wire Wire Line
+	7400 4750 7400 4650
+Connection ~ 7400 4650
+Wire Wire Line
+	8400 6350 5750 6350
+Wire Wire Line
+	5750 6350 5750 5050
+Connection ~ 5750 5850
+Connection ~ 8000 6350
+Wire Wire Line
+	8400 5250 8400 6350
+Connection ~ 8400 5550
+Wire Wire Line
+	8000 4850 8000 5250
+Wire Wire Line
+	7150 5250 8400 5250
+Connection ~ 8000 5250
+Text Label 7750 5650 0    60   ~ 0
+OLED_DnC
+Text Label 7750 5450 0    60   ~ 0
+OLED_~RST
+Wire Wire Line
+	8350 4650 9000 4650
+Wire Wire Line
+	7150 4650 7550 4650
+Wire Wire Line
+	7550 4650 7550 4600
+$Comp
+L +5V #PWR05
+U 1 1 5208AA34
+P 7550 4600
+F 0 "#PWR05" H 7550 4690 20  0001 C CNN
+F 1 "+5V" H 7550 4690 30  0000 C CNN
+F 2 "" H 7550 4600 60  0000 C CNN
+F 3 "" H 7550 4600 60  0000 C CNN
+	1    7550 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 6350 8000 6500
+NoConn ~ 7400 5350
+NoConn ~ 6400 5350
+NoConn ~ 6400 5250
+NoConn ~ 6400 5150
+NoConn ~ 6400 4950
+NoConn ~ 6400 4850
+NoConn ~ 6400 4750
+Text Label 6650 5450 2    60   ~ 0
+3V3
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 5208AFAA
+P 7400 4650
+F 0 "#FLG06" H 7400 4745 30  0001 C CNN
+F 1 "PWR_FLAG" H 7400 4830 30  0000 C CNN
+F 2 "" H 7400 4650 60  0000 C CNN
+F 3 "" H 7400 4650 60  0000 C CNN
+	1    7400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 5208AFBA
+P 7700 6350
+F 0 "#FLG07" H 7700 6445 30  0001 C CNN
+F 1 "PWR_FLAG" H 7700 6530 30  0000 C CNN
+F 2 "" H 7700 6350 60  0000 C CNN
+F 3 "" H 7700 6350 60  0000 C CNN
+	1    7700 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7700 6350
+$EndSCHEMATC
