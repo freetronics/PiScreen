@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 01 Oct 2013 10:13:19 EST
+
+BeginCmp
+TimeStamp = /52089838;
+Reference = JP1;
+ValeurCmp = M02X13;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5208894E;
+Reference = P1;
+ValeurCmp = M02X05;
+IdModule  = DIL10;
+EndCmp
+
+BeginCmp
+TimeStamp = /52089CAD;
+Reference = P2;
+ValeurCmp = M02X05;
+IdModule  = DIL10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209F935;
+Reference = P3;
+ValeurCmp = CONN_14;
+IdModule  = 1X14;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209FA82;
+Reference = P4;
+ValeurCmp = CONN_5;
+IdModule  = 1X05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209FA8F;
+Reference = P5;
+ValeurCmp = CONN_5;
+IdModule  = 1X05;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209FA95;
+Reference = P6;
+ValeurCmp = CONN_5;
+IdModule  = 1X05;
+EndCmp
+
+BeginCmp
+TimeStamp = /52088954;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209C359;
+Reference = SJ1;
+ValeurCmp = SJ;
+IdModule  = SJ_OPEN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209C366;
+Reference = SJ2;
+ValeurCmp = SJ;
+IdModule  = SJ_OPEN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209D194;
+Reference = SJ3;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209D1B1;
+Reference = SJ4;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209DDB6;
+Reference = SJ5;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209E92A;
+Reference = SJ6;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209E9DE;
+Reference = SJ7;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209EC37;
+Reference = SJ8;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5209EC41;
+Reference = SJ9;
+ValeurCmp = SJ;
+IdModule  = SJ_SHORTED;
+EndCmp
+
+EndListe
