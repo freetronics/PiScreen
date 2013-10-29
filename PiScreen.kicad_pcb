@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-jul-07)-stable")
 
   (general
     (links 66)
@@ -299,13 +299,13 @@
     )
   )
 
-  (module DIL10 (layer B.Cu) (tedit 524E233E) (tstamp 520899F4)
+  (module DIL10 (layer B.Cu) (tedit 527040B8) (tstamp 520899F4)
     (at 153.5 86.75)
     (path /5208894E)
     (fp_text reference P1 (at 1.313 1.4515) (layer Eco1.User)
       (effects (font (size 1.27 1.27) (thickness 0.127)) (justify mirror))
     )
-    (fp_text value M02X05 (at 2.54 -2.54) (layer Eco1.User) hide
+    (fp_text value M02X05 (at 2.71 -2.93) (layer Eco1.User) hide
       (effects (font (size 1.27 1.27) (thickness 0.1016)) (justify mirror))
     )
     (fp_line (start 9.525 3.81) (end 10.795 3.81) (layer F.SilkS) (width 0.2032))
@@ -2599,13 +2599,13 @@
   (module LOGO_FREETRONICS (layer F.Cu) (tedit 524A11BD) (tstamp 524B39D8)
     (at 142.24 111.252 270)
     (fp_text reference LOGO_FREETRONICS (at -0.508 0 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value val** (at 0.762 0.254 270) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text user freetronics (at 0 0 270) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start -5.08 -1.524) (end 5.08 -1.524) (layer F.SilkS) (width 0.381))
     (fp_arc (start 5.08 0) (end 5.08 -1.524) (angle 90) (layer F.SilkS) (width 0.381))
@@ -2682,13 +2682,13 @@
   (module LOGO_FREETRONICS (layer B.Cu) (tedit 512ECE5E) (tstamp 524B4B57)
     (at 186.436 102.616 90)
     (fp_text reference LOGO_FREETRONICS (at -0.508 0 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_text value val** (at 0.762 -0.254 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_text user freetronics (at 0 0 90) (layer B.SilkS)
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_line (start -5.08 1.524) (end 5.08 1.524) (layer B.SilkS) (width 0.381))
     (fp_arc (start 5.08 0) (end 5.08 1.524) (angle -90) (layer B.SilkS) (width 0.381))
