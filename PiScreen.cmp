@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 01 Oct 2013 10:13:19 EST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 13 Feb 2014 10:15:49 EST
 
 BeginCmp
 TimeStamp = /52089838;
@@ -109,14 +109,14 @@ BeginCmp
 TimeStamp = /5209EC37;
 Reference = SJ8;
 ValeurCmp = SJ;
-IdModule  = SJ_SHORTED;
+IdModule  = SJ_OPEN;
 EndCmp
 
 BeginCmp
 TimeStamp = /5209EC41;
 Reference = SJ9;
 ValeurCmp = SJ;
-IdModule  = SJ_SHORTED;
+IdModule  = SJ_OPEN;
 EndCmp
 
 EndListe
